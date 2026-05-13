@@ -42,13 +42,13 @@ Analysiert Instagram-Reels und TikTok-Videos mit Gemini 2.5 Flash, erkennt Trend
 
 ```bash
 # Via Marketplace
-claude plugin marketplace add nbadawi-hmd/content-intelligence
+claude plugin marketplace add AdScale-Agency-LLC/content-intelligence
 claude plugin install content-intelligence@content-intelligence
 ```
 
 Oder lokal aus dem Repo:
 ```bash
-git clone https://github.com/nbadawi-hmd/content-intelligence.git ~/.claude/plugins/content-intelligence
+git clone https://github.com/AdScale-Agency-LLC/content-intelligence.git ~/.claude/plugins/content-intelligence
 claude plugin marketplace add ~/.claude/plugins/content-intelligence
 claude plugin install content-intelligence@content-intelligence
 ```

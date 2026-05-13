@@ -15,7 +15,7 @@ Komplettes Onboarding fuer neue Nutzer. Wenn du nur einen Reel analysieren wills
 
 In Claude Code:
 ```
-/plugin marketplace add nbadawi-hmd/content-intelligence
+/plugin marketplace add AdScale-Agency-LLC/content-intelligence
 /plugin install content-intelligence@content-intelligence
 ```
 
@@ -274,4 +274,4 @@ Sollte 7 Tabellen zeigen (clients, reels, jobs, scripts, playbooks, tracked_acco
 
 ## Hilfe
 
-Issues / Feature-Requests: https://github.com/nbadawi-hmd/content-intelligence/issues
+Issues / Feature-Requests: https://github.com/AdScale-Agency-LLC/content-intelligence/issues
