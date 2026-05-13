@@ -1,0 +1,34 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Plugin-specific local data (NEVER commit user data)
+scripts/python/_data/*.db
+scripts/python/_data/*.db-wal
+scripts/python/_data/*.db-shm
+
+# Secrets (defense-in-depth — keys live in ~/.config, not here, but never trust)
+*.env
+.env.local
+secrets.json
+
+# Test artifacts
+_test_*.py
+*.partial
+*.mp4

@@ -1,0 +1,18 @@
+{
+  "name": "content-intelligence",
+  "owner": {
+    "name": "Nayl Badawi"
+  },
+  "metadata": {
+    "description": "Agentur-grade Content-Intelligence-Plugin: Reels analysieren, Trends erkennen, Skripte generieren pro Klient. Apify + Gemini 2.5 + Supabase pgvector.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "content-intelligence",
+      "description": "Agentur-grade Content-Intelligence: IG/TikTok-Reels analysieren, Trends erkennen, Skripte generieren pro Klient.",
+      "source": "./",
+      "strict": true
+    }
+  ]
+}

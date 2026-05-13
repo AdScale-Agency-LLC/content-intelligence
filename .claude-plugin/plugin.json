@@ -1,0 +1,9 @@
+{
+  "name": "content-intelligence",
+  "description": "Agentur-grade Content-Intelligence: IG/TikTok-Reels analysieren, Trends erkennen, Skripte generieren pro Klient.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Nayl Badawi"
+  },
+  "license": "MIT"
+}

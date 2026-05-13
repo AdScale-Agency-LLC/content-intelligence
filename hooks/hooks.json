@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"${CLAUDE_PLUGIN_ROOT}/scripts/python/cmd_status.py\" --preflight 2>/dev/null || echo '[content-intelligence] not configured - run /ci-setup'"
+          }
+        ]
+      }
+    ]
+  }
+}
